@@ -27,16 +27,16 @@ function addElementToBeginningOfArray(array, element) {
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray(array, string) {
-  array.unshift(string)
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element)
 }
 
-function addElementToEndOfArray(array, string) {
-  [...array, string]
+function addElementToEndOfArray(array, element) {
+  [...array, element]
 }
 
-function destructivelyAddElementToEndOfArray(array, string) {
-  array.push(string)
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
 }
 
 function accessElementInArray(array, index) {
